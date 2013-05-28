@@ -14,11 +14,16 @@
 		C87A538F17546105008461B5 /* GGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A537C17546105008461B5 /* GGViewController.m */; };
 		C87A539017546105008461B5 /* GGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A538617546105008461B5 /* GGAppDelegate.m */; };
 		C87A539117546105008461B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A538717546105008461B5 /* main.m */; };
-		C87A539217546105008461B5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87A538817546105008461B5 /* MainStoryboard_iPad.storyboard */; };
-		C87A539317546105008461B5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87A538917546105008461B5 /* MainStoryboard_iPhone.storyboard */; };
 		C87A539417546105008461B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87A538B17546105008461B5 /* Default-568h@2x.png */; };
 		C87A539517546105008461B5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C87A538C17546105008461B5 /* Default.png */; };
 		C87A539617546105008461B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87A538D17546105008461B5 /* Default@2x.png */; };
+		C87A53A2175489D8008461B5 /* GGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C87A53A1175489D8008461B5 /* GGViewController.xib */; };
+		C87A53C01754923F008461B5 /* VerticalSwipeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A53B61754923F008461B5 /* VerticalSwipeScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C87A53C11754923F008461B5 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A53B91754923F008461B5 /* MMDrawerBarButtonItem.m */; };
+		C87A53C21754923F008461B5 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A53BB1754923F008461B5 /* MMDrawerController.m */; };
+		C87A53C31754923F008461B5 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A53BD1754923F008461B5 /* MMDrawerVisualState.m */; };
+		C87A53C41754923F008461B5 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A53BF1754923F008461B5 /* UIViewController+MMDrawerController.m */; };
+		C87A53C61754931E008461B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87A53C51754931E008461B5 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,11 +39,21 @@
 		C87A538517546105008461B5 /* GGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGAppDelegate.h; sourceTree = "<group>"; };
 		C87A538617546105008461B5 /* GGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGAppDelegate.m; sourceTree = "<group>"; };
 		C87A538717546105008461B5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C87A538817546105008461B5 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		C87A538917546105008461B5 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		C87A538B17546105008461B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C87A538C17546105008461B5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C87A538D17546105008461B5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C87A53A1175489D8008461B5 /* GGViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GGViewController.xib; sourceTree = "<group>"; };
+		C87A53B51754923F008461B5 /* VerticalSwipeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalSwipeScrollView.h; sourceTree = "<group>"; };
+		C87A53B61754923F008461B5 /* VerticalSwipeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalSwipeScrollView.m; sourceTree = "<group>"; };
+		C87A53B81754923F008461B5 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		C87A53B91754923F008461B5 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		C87A53BA1754923F008461B5 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		C87A53BB1754923F008461B5 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		C87A53BC1754923F008461B5 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		C87A53BD1754923F008461B5 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		C87A53BE1754923F008461B5 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		C87A53BF1754923F008461B5 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		C87A53C51754931E008461B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87A53C61754931E008461B5 /* QuartzCore.framework in Frameworks */,
 				C87A53541754562A008461B5 /* UIKit.framework in Frameworks */,
 				C87A53561754562A008461B5 /* Foundation.framework in Frameworks */,
 				C87A53581754562A008461B5 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +91,7 @@
 		C87A53521754562A008461B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C87A53C51754931E008461B5 /* QuartzCore.framework */,
 				C87A53531754562A008461B5 /* UIKit.framework */,
 				C87A53551754562A008461B5 /* Foundation.framework */,
 				C87A53571754562A008461B5 /* CoreGraphics.framework */,
@@ -123,6 +140,7 @@
 			children = (
 				C87A537B17546105008461B5 /* GGViewController.h */,
 				C87A537C17546105008461B5 /* GGViewController.m */,
+				C87A53A1175489D8008461B5 /* GGViewController.xib */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -172,6 +190,8 @@
 		C87A538317546105008461B5 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				C87A53B41754923F008461B5 /* VerticalSwipeScrollView */,
+				C87A53B71754923F008461B5 /* MMDrawerController */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -182,8 +202,6 @@
 				C87A538517546105008461B5 /* GGAppDelegate.h */,
 				C87A538617546105008461B5 /* GGAppDelegate.m */,
 				C87A538717546105008461B5 /* main.m */,
-				C87A538817546105008461B5 /* MainStoryboard_iPad.storyboard */,
-				C87A538917546105008461B5 /* MainStoryboard_iPhone.storyboard */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -204,6 +222,30 @@
 			children = (
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		C87A53B41754923F008461B5 /* VerticalSwipeScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C87A53B51754923F008461B5 /* VerticalSwipeScrollView.h */,
+				C87A53B61754923F008461B5 /* VerticalSwipeScrollView.m */,
+			);
+			path = VerticalSwipeScrollView;
+			sourceTree = "<group>";
+		};
+		C87A53B71754923F008461B5 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				C87A53B81754923F008461B5 /* MMDrawerBarButtonItem.h */,
+				C87A53B91754923F008461B5 /* MMDrawerBarButtonItem.m */,
+				C87A53BA1754923F008461B5 /* MMDrawerController.h */,
+				C87A53BB1754923F008461B5 /* MMDrawerController.m */,
+				C87A53BC1754923F008461B5 /* MMDrawerVisualState.h */,
+				C87A53BD1754923F008461B5 /* MMDrawerVisualState.m */,
+				C87A53BE1754923F008461B5 /* UIViewController+MMDrawerController.h */,
+				C87A53BF1754923F008461B5 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,11 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C87A535E1754562A008461B5 /* InfoPlist.strings in Resources */,
-				C87A539217546105008461B5 /* MainStoryboard_iPad.storyboard in Resources */,
-				C87A539317546105008461B5 /* MainStoryboard_iPhone.storyboard in Resources */,
 				C87A539417546105008461B5 /* Default-568h@2x.png in Resources */,
 				C87A539517546105008461B5 /* Default.png in Resources */,
 				C87A539617546105008461B5 /* Default@2x.png in Resources */,
+				C87A53A2175489D8008461B5 /* GGViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +318,11 @@
 				C87A538F17546105008461B5 /* GGViewController.m in Sources */,
 				C87A539017546105008461B5 /* GGAppDelegate.m in Sources */,
 				C87A539117546105008461B5 /* main.m in Sources */,
+				C87A53C01754923F008461B5 /* VerticalSwipeScrollView.m in Sources */,
+				C87A53C11754923F008461B5 /* MMDrawerBarButtonItem.m in Sources */,
+				C87A53C21754923F008461B5 /* MMDrawerController.m in Sources */,
+				C87A53C31754923F008461B5 /* MMDrawerVisualState.m in Sources */,
+				C87A53C41754923F008461B5 /* UIViewController+MMDrawerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "eguo/eguo-Prefix.pch";
 				INFOPLIST_FILE = "eguo/eguo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -369,6 +416,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "eguo/eguo-Prefix.pch";
 				INFOPLIST_FILE = "eguo/eguo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
