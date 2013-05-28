@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C87A53541754562A008461B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87A53531754562A008461B5 /* UIKit.framework */; };
+		C87A53561754562A008461B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87A53551754562A008461B5 /* Foundation.framework */; };
+		C87A53581754562A008461B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87A53571754562A008461B5 /* CoreGraphics.framework */; };
+		C87A535E1754562A008461B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C87A535C1754562A008461B5 /* InfoPlist.strings */; };
+		C87A53601754562A008461B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A535F1754562A008461B5 /* main.m */; };
+		C87A53641754562A008461B5 /* GGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A53631754562A008461B5 /* GGAppDelegate.m */; };
+		C87A53661754562A008461B5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C87A53651754562A008461B5 /* Default.png */; };
+		C87A53681754562A008461B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87A53671754562A008461B5 /* Default@2x.png */; };
+		C87A536A1754562A008461B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87A53691754562A008461B5 /* Default-568h@2x.png */; };
+		C87A536D1754562A008461B5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87A536B1754562A008461B5 /* MainStoryboard_iPhone.storyboard */; };
+		C87A53701754562A008461B5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87A536E1754562A008461B5 /* MainStoryboard_iPad.storyboard */; };
+		C87A53731754562A008461B5 /* GGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A53721754562A008461B5 /* GGViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C87A53501754562A008461B5 /* eguo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eguo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87A53531754562A008461B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C87A53551754562A008461B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C87A53571754562A008461B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C87A535B1754562A008461B5 /* eguo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eguo-Info.plist"; sourceTree = "<group>"; };
+		C87A535D1754562A008461B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C87A535F1754562A008461B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C87A53611754562A008461B5 /* eguo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eguo-Prefix.pch"; sourceTree = "<group>"; };
+		C87A53621754562A008461B5 /* GGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGAppDelegate.h; sourceTree = "<group>"; };
+		C87A53631754562A008461B5 /* GGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGAppDelegate.m; sourceTree = "<group>"; };
+		C87A53651754562A008461B5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C87A53671754562A008461B5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C87A53691754562A008461B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C87A536C1754562A008461B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C87A536F1754562A008461B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C87A53711754562A008461B5 /* GGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGViewController.h; sourceTree = "<group>"; };
+		C87A53721754562A008461B5 /* GGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87A534D1754562A008461B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87A53541754562A008461B5 /* UIKit.framework in Frameworks */,
+				C87A53561754562A008461B5 /* Foundation.framework in Frameworks */,
+				C87A53581754562A008461B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87A53471754562A008461B5 = {
+			isa = PBXGroup;
+			children = (
+				C87A53591754562A008461B5 /* eguo */,
+				C87A53521754562A008461B5 /* Frameworks */,
+				C87A53511754562A008461B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87A53511754562A008461B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87A53501754562A008461B5 /* eguo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87A53521754562A008461B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C87A53531754562A008461B5 /* UIKit.framework */,
+				C87A53551754562A008461B5 /* Foundation.framework */,
+				C87A53571754562A008461B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C87A53591754562A008461B5 /* eguo */ = {
+			isa = PBXGroup;
+			children = (
+				C87A53621754562A008461B5 /* GGAppDelegate.h */,
+				C87A53631754562A008461B5 /* GGAppDelegate.m */,
+				C87A536B1754562A008461B5 /* MainStoryboard_iPhone.storyboard */,
+				C87A536E1754562A008461B5 /* MainStoryboard_iPad.storyboard */,
+				C87A53711754562A008461B5 /* GGViewController.h */,
+				C87A53721754562A008461B5 /* GGViewController.m */,
+				C87A535A1754562A008461B5 /* Supporting Files */,
+			);
+			path = eguo;
+			sourceTree = "<group>";
+		};
+		C87A535A1754562A008461B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C87A535B1754562A008461B5 /* eguo-Info.plist */,
+				C87A535C1754562A008461B5 /* InfoPlist.strings */,
+				C87A535F1754562A008461B5 /* main.m */,
+				C87A53611754562A008461B5 /* eguo-Prefix.pch */,
+				C87A53651754562A008461B5 /* Default.png */,
+				C87A53671754562A008461B5 /* Default@2x.png */,
+				C87A53691754562A008461B5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87A534F1754562A008461B5 /* eguo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87A53761754562A008461B5 /* Build configuration list for PBXNativeTarget "eguo" */;
+			buildPhases = (
+				C87A534C1754562A008461B5 /* Sources */,
+				C87A534D1754562A008461B5 /* Frameworks */,
+				C87A534E1754562A008461B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eguo;
+			productName = eguo;
+			productReference = C87A53501754562A008461B5 /* eguo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87A53481754562A008461B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = onemx;
+			};
+			buildConfigurationList = C87A534B1754562A008461B5 /* Build configuration list for PBXProject "eguo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C87A53471754562A008461B5;
+			productRefGroup = C87A53511754562A008461B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87A534F1754562A008461B5 /* eguo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87A534E1754562A008461B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87A535E1754562A008461B5 /* InfoPlist.strings in Resources */,
+				C87A53661754562A008461B5 /* Default.png in Resources */,
+				C87A53681754562A008461B5 /* Default@2x.png in Resources */,
+				C87A536A1754562A008461B5 /* Default-568h@2x.png in Resources */,
+				C87A536D1754562A008461B5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				C87A53701754562A008461B5 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87A534C1754562A008461B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87A53601754562A008461B5 /* main.m in Sources */,
+				C87A53641754562A008461B5 /* GGAppDelegate.m in Sources */,
+				C87A53731754562A008461B5 /* GGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C87A535C1754562A008461B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87A535D1754562A008461B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C87A536B1754562A008461B5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87A536C1754562A008461B5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C87A536E1754562A008461B5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87A536F1754562A008461B5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C87A53741754562A008461B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C87A53751754562A008461B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C87A53771754562A008461B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eguo/eguo-Prefix.pch";
+				INFOPLIST_FILE = "eguo/eguo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C87A53781754562A008461B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eguo/eguo-Prefix.pch";
+				INFOPLIST_FILE = "eguo/eguo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87A534B1754562A008461B5 /* Build configuration list for PBXProject "eguo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87A53741754562A008461B5 /* Debug */,
+				C87A53751754562A008461B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87A53761754562A008461B5 /* Build configuration list for PBXNativeTarget "eguo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87A53771754562A008461B5 /* Debug */,
+				C87A53781754562A008461B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C87A53481754562A008461B5 /* Project object */;
+}
