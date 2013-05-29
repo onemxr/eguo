@@ -7,20 +7,30 @@
 //
 
 #import "GGAppDelegate.h"
+#import "GGCenterViewController.h"
+#import "GGLeftViewController.h"
+#import "MMDrawerController.h"
+#import "MMDrawerVisualState.h"
 
 @implementation GGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    GGCenterViewController *centerViewController = [[GGCenterViewController alloc]initWithNibName:@"GGCenterViewController" bundle:nil];
+    GGLeftViewController *leftViewController = [[GGLeftViewController alloc]initWithNibName:@"GGLeftViewController" bundle:nil];
     
-    self.viewController = [[GGViewController alloc]init];
-    self.navController = [[UINavigationController alloc]initWithRootViewController:self.viewController];
+    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:centerViewController];
     
-    [self.window setRootViewController:self.navController];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    MMDrawerController * drawerController = [[MMDrawerController alloc]initWithCenterViewController:navigationController leftDrawerViewController:leftViewController];
+    
+    [drawerController setMaximumLeftDrawerWidth:200.0f];
+    [drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    [drawerController setDrawerVisualStateBlock:[MMDrawerVisualState swingingDoorVisualStateBlock]];
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = drawerController;
     [self.window makeKeyAndVisible];
     return YES;
 }
